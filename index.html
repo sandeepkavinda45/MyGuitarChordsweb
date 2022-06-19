@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Chords</title>
+    <link rel="icon" href="./Images/icon.png">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ====== Navbar ======== -->
+    <div class="nBar">
+        <a href="index.html"><img src="./Images/icon.png" alt="" class="logo-image"></a>
+        <button class="btn btn-success homeButton col-3 col-md-2" onclick="toHome();">Home</button>
+    </div>
+
+    <!-- ====== Chords ======== -->
+    <div class="allDivs">
+        <div class="topHiddenDiv" id="home"></div>
+        <div class="d1">
+            <div class="MainTitle1" id="ronde">
+                <h1 class="t1">Ronde Covers</h1>
+                <!-- <button class="btn btn-danger homeButton col-3 col-md-2" title="Press For Show And Hide YouTube Video Related To The Song" onclick="hideAndShow();" id="hideShowBtn">Hide Videos</button> -->
+            </div>
+
+            <!-- ======= Song 1 ======== -->
+
+            <div class="song">
+                <h3 class="margin">01</h3>
+                <h3 class="margin songTitle ">Nupurudu Oba Dutu</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=1246" target=”_blank”><button class=" margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class=" margin btn btn-primary" onclick="popupVid1();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid1" src="https://www.youtube.com/embed/vf_vNMbv32Q" title="Nupurudu Oba Dutu | නුපුරුදු ඔබ දුටු" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 2 ======== -->
+            <div class="song ">
+                <h3 class="margin">02</h3>
+                <h3 class="margin songTitle">Diya Kinduriya Se</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=328 " target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class=" margin btn btn-primary" onclick="popupVid2();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid2" src="https://www.youtube.com/embed/Fg4qrF9Gj6s " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                    picture-in-picture " allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 3 ======== -->
+            <div class="song">
+                <h3 class="margin">03</h3>
+                <h3 class="margin songTitle">Obatai Me Aradana</h3>
+                <div>
+                    <a href="http://www.chordssrilanka.com/2012/09/blog-post_30.html" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class=" margin btn btn-primary" onclick="popupVid3();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid3" src="https://www.youtube.com/embed/Hj7zbP1zJIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 4 ======== -->
+            <div class="song">
+                <h3 class="margin">04</h3>
+                <h3 class="margin songTitle">Niyare Piya Nagala</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=1363" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class=" margin btn btn-primary" onclick="popupVid4();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid4" src="https://www.youtube.com/embed/6mhBb0zeawk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 5 ======== -->
+            <div class="song">
+                <h3 class="margin">05</h3>
+                <h3 class="margin songTitle">Sande Oba Aida Me Yame</h3>
+                <div>
+                    <a href="http://www.chordslankalk.com/song_view.php?song_id=54" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid5();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid5" src="https://www.youtube.com/embed/AgFY_wFmc8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 6 ======== -->
+            <div class="song">
+                <h3 class="margin">06</h3>
+                <h3 class="margin songTitle">Pem Banda Sith Banda</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=1139" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid6();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid6" src="https://www.youtube.com/embed/nJBNyrScmEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 7 ======== -->
+            <div class="song">
+                <h3 class="margin">07</h3>
+                <h3 class="margin songTitle">Pinna Male</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=1444" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid7();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid7" src="https://www.youtube.com/embed/0q6We0vqtGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 8 ======== -->
+            <div class="song">
+                <h3 class="margin">08</h3>
+                <h3 class="margin songTitle">Awasan Liyumai</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=876" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid8();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid8" src="https://www.youtube.com/embed/3xpU-JcijSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 9 ======== -->
+            <div class="song">
+                <h3 class="margin">09</h3>
+                <h3 class="margin songTitle">Ruwak Adenawa</h3>
+                <div>
+                    <a href="https://alachords.com/gunadasa-kapuge/ruwak-adenawa/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid9();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid9" src="https://www.youtube.com/embed/RiyhqwuP3DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 10 ======== -->
+            <div class="song">
+                <h3 class="margin">10</h3>
+                <h3 class="margin songTitle">Sigiri Landune</h3>
+                <div>
+                    <a href="http://www.chordslankalk.com/song_view.php?song_id=1231" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid10();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid10" src="https://www.youtube.com/embed/ggGRwvwu5Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 11 ======== -->
+            <div class="song">
+                <h3 class="margin">11</h3>
+                <h3 class="margin songTitle">Salli Pokuru</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=612" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid11();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid11" src="https://www.youtube.com/embed/_9nMCiDncPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 12 ======== -->
+            <div class="song">
+                <h3 class="margin">12</h3>
+                <h3 class="margin songTitle">Dilidune Daruwane Mage</h3>
+                <div>
+                    <a href="https://slchords.com/songs/Bilindune_Daruwane_(Amma_Pewu_Kiri)" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid12();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid12" src="https://www.youtube.com/embed/icGhvlYjSBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 13 ======== -->
+            <div class="song">
+                <h3 class="margin">13</h3>
+                <h3 class="margin songTitle">Piyamanne</h3>
+                <div>
+                    <a href="https://slchords.com/songs/Piyamanne" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid13();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid13" src="https://www.youtube.com/embed/SAlcQACJDQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- ======= Song 14 ======== -->
+            <div class="song">
+                <h3 class="margin">14</h3>
+                <h3 class="margin songTitle">Werala Konaka Hida</h3>
+                <div>
+                    <a href="http://chordslankalk.com/song_view.php?song_id=2188" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+                    <button class="margin btn btn-primary" onclick="popupVid14();">Open Video</button>
+                </div>
+                <iframe width="212.75" height="119.5" class="vid" id="vid14" src="https://www.youtube.com/embed/Fq-N-xQujXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+
+        </div>
+
+        <!-- ========== playList 01 ========== -->
+        <div class="topHiddenDiv"></div>
+
+        <div class="d1">
+            <div class="MainTitle1" id="list1">
+                <h1 class="t1">Play List #01</h1>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">01</h3>
+                <h3 class="margin songTitle ">Hada Wiman Dorin</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=162" target=”_blank”><button class=" margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">02</h3>
+                <h3 class="margin songTitle">Mage Oru Kadath Dirala</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=1035" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">03</h3>
+                <h3 class="margin songTitle">Perum Puragena Aa Sansare</h3>
+                <a href="https://slchords.com/songs/Perum_Puragena_Aa_Sansare" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">04</h3>
+                <h3 class="margin songTitle">Kusum Sara</h3>
+                <a href="https://tabs.ultimate-guitar.com/tab/4077916" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">05</h3>
+                <h3 class="margin songTitle">Oya As Dekata Pem Keruwe</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=1276" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">06</h3>
+                <h3 class="margin songTitle">Man Ithaliye Thani Una</h3>
+                <a href="http://www.chordssrilanka.com/2017/09/man-ithaliye-thani-una.html" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">07</h3>
+                <h3 class="margin songTitle">Sudu Gawme Ai</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=185" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">08</h3>
+                <h3 class="margin songTitle">Sidhagana</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=770" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">09</h3>
+                <h3 class="margin songTitle">Mihirawa Awa</h3>
+                <a href="http://www.chordssrilanka.com/2019/08/sajitha-anthony-mihirawa-awa.html" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">10</h3>
+                <h3 class="margin songTitle">Diyawanna Kumariye</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=2452" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">11</h3>
+                <h3 class="margin songTitle">Nethu Saluna</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=854" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">12</h3>
+                <h3 class="margin songTitle">Iri Thalunu Wala</h3>
+                <a href=" https://slchords.com/songs/Iri_Thalunu_Wala/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">13</h3>
+                <h3 class="margin songTitle">See Seekada</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=1418" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">14</h3>
+                <h3 class="margin songTitle">Iwasillak Na</h3>
+                <a href=" https://slchords.com/songs/Iwasillak_Na_Dakina_Thura/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">15</h3>
+                <h3 class="margin songTitle">Saptha Swarayai</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=2148" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">16</h3>
+                <h3 class="margin songTitle">Pawee Giyawe Lande Ma Obe</h3>
+                <a href="http://www.chordssrilanka.com/2014/04/pawee-giyawe-lande-ma-obe.html" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">17</h3>
+                <h3 class="margin songTitle">Dasa Piya Gath Kala</h3>
+                <a href="https://alachords.com/clarence-wijewardana/desa-piya-gath-kala-ver-2-tabs-included/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">18</h3>
+                <h3 class="margin songTitle">Piya Manne</h3>
+                <a href="https://slchords.com/songs/Piyamanne" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">19</h3>
+                <h3 class="margin songTitle">Sheela</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=392" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">20</h3>
+                <h3 class="margin songTitle">Sudu Andumin</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=448" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">21</h3>
+                <h3 class="margin songTitle">Pita Rata Visthara Mewwa</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=780" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">22</h3>
+                <h3 class="margin songTitle">Lande Mula Wee Giya Nam</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=227" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">22</h3>
+                <h3 class="margin songTitle">Yanna Rata Wate</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=249" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">23</h3>
+                <h3 class="margin songTitle">Thani Wee Sitinnai Ma</h3>
+                <a href="http://alachords.com/milton-mallawarachchi/thaniwi-sitinnai-ma/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">24</h3>
+                <h3 class="margin songTitle">Yanna Rata Wate</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=249" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">25</h3>
+                <h3 class="margin songTitle">Siriyalatha</h3>
+                <a href="http://www.chordssrilanka.com/2018/11/siriyalatha.html" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">26</h3>
+                <h3 class="margin songTitle">Liyathabara</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=94" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">27</h3>
+                <h3 class="margin songTitle">Mage Pale Andura Nasanna</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=767" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- ========== playList 02 ========== -->
+        <div class="topHiddenDiv"></div>
+        <div class="d1">
+            <div class="MainTitle1" id="list2">
+                <h1 class="t1">Play List #02</h1>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">01</h3>
+                <h3 class="margin songTitle ">Me Anantha Rathriye</h3>
+                <a href="http://www.chordssrilanka.com/2012/05/me-anantha-rathriye.html" target=”_blank”><button class=" margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">02</h3>
+                <h3 class="margin songTitle">Thawa Eka Sarayak</h3>
+                <a href="https://slchords.com/songs/Thawa_Eka_Sarayak/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song">
+                <h3 class="margin">03</h3>
+                <h3 class="margin songTitle">Ninda Nathi Raye</h3>
+                <a href="https://slchords.com/songs/Ninda_Nathi_Raye/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song">
+                <h3 class="margin">04</h3>
+                <h3 class="margin songTitle">Sanda Tharu Nihadai</h3>
+                <a href="https://slchords.com/songs/Sanda_Tharu_Nihandai" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song">
+                <h3 class="margin">05</h3>
+                <h3 class="margin songTitle">Aduru Kutiya Thula</h3>
+                <a href="https://slchords.com/songs/Anduru_Kutiya_Thula/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song">
+                <h3 class="margin">06</h3>
+                <h3 class="margin songTitle">Sara Sade Sina Sele</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=523" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song">
+                <h3 class="margin">07</h3>
+                <h3 class="margin songTitle">Hawasaka Ma</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=1809" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">08</h3>
+                <h3 class="margin songTitle">Manadaram Wahi Watena</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=778" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">09</h3>
+                <h3 class="margin songTitle">Awasara Natha Mata</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=1089" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">10</h3>
+                <h3 class="margin songTitle">Kandu Para Atha Aine</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=1048" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">11</h3>
+                <h3 class="margin songTitle">Sithin Witharak</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=989" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">12</h3>
+                <h3 class="margin songTitle">Amma Sadaki</h3>
+                <a href="http://chordslankalk.com/song_view.php?song_id=550" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">13</h3>
+                <h3 class="margin songTitle">Gamata Kalin Hiru</h3>
+                <a href="http://www.chordslankalk.com/song_view.php?song_id=1574" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">14</h3>
+                <h3 class="margin songTitle">Ninda Nena Rathriye</h3>
+                <a href="http://alachords.com/hr-jothipala/ninda-nena-raththriye/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+            <div class="song ">
+                <h3 class="margin">15</h3>
+                <h3 class="margin songTitle">Sumudu Walawaka</h3>
+                <a href="https://alachords.com/chandana-liyanarachchi/sumudu-walawaka/" target=”_blank”><button class="margin btn btn-warning " id="openChords ">Open Chords</button></a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="topHiddenDiv" id="home"></div>
+
+    </div>
+
+    <div id="underButtons">
+        <button class="btn btn-success homeButton col-3 col-md-2" onclick="toRondeCovers();">Ronde</button>
+        <button class="btn btn-success homeButton col-3 col-md-2" onclick="tolist1();">List 1</button>
+        <button class="btn btn-success homeButton col-3 col-md-2" onclick="toList2();">List 2</button>
+    </div>
+
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery.bpopup.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
